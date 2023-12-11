@@ -1,0 +1,85 @@
+.wrapper{
+    width: 60vw;
+    padding-top: 80px;
+    margin: 0 auto; 
+    gap: 10px;   
+}
+
+.wrapperTitleAndBtnBack{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wpapperProducts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapperProduct{
+    padding: 15px;
+    border: 2px solid #8f8f8f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 160px;
+}
+
+.wrapperInformation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.discount{    
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.discountTotal{    
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.prise{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.totalInform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.discountTotal{    
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.btnBuy{
+    background-color: green;
+    font-size: 1.2rem;
+    padding: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none; 
+}
+
+.btnBuy:hover{
+    
+    background-color: rgb(19, 155, 19);  
+}

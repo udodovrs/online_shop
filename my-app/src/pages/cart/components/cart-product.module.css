@@ -1,0 +1,103 @@
+.wrapper{
+    width: 60vw;
+    padding-top: 80px;
+    margin: 0 auto; 
+    gap: 10px;   
+}
+
+.wrapperTitleAndBtnBack{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wpapperProducts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapperProduct{
+    padding: 15px;
+    border: 2px solid #8f8f8f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 160px;
+}
+
+.wrapperInformation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.discount{    
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.discountTotal{    
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.prise{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.wrapperCount{
+    display: flex;
+    font-size: 1.5rem;    
+    gap: 10px;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.chengeCount{
+    padding: 5px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 15px;
+    cursor: pointer;
+    background-color: #e7e5e5;
+}
+
+.count{
+    padding: 5px;    
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+
+.dleteBtn{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition:  background-color .3s;
+}
+
+.dleteBtn:hover{
+    background-color: rgb(222, 229, 235);
+}
+
+.wrapperCountAndDeleteBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}

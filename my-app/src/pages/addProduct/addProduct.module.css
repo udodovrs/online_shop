@@ -1,0 +1,51 @@
+.wrapper{
+    width: 70vw;
+    padding-top: 100px;
+    margin: 0 auto;    
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.input{
+    width: 600px;
+    padding: 5px;
+    font-size: 1rem;    
+}
+
+.textarea{
+    width: 600px;
+    height: 150px;
+    padding: 10px;   
+    resize: none;   
+}
+
+.textareaUrl{
+    width: 600px;
+    height: 100px;
+    padding: 10px;   
+    resize: none;
+   
+}
+
+.message{
+    font-size: 0.8rem;
+    padding: 10px;
+    background-color: rgb(162, 194, 194);
+    border-radius: 10px;
+    color: rgb(46, 45, 45);
+}
+
+.titleInfo{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.wrapperTitleAndBtnBack{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.sortingItem{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border: 2px solid rgb(242, 229, 252);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border .3s;
+}
+
+.sortingChoosedItem{
+    background-color: rgb(182, 175, 175);
+    padding: 7px;
+    border: 2px solid rgb(242, 229, 252);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border .3s;
+}
+
+.sortingItem:hover{
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.sortingChoosedItem:hover{
+    border: 2px solid rgb(15, 15, 15);
+}

@@ -1,0 +1,49 @@
+.wrapper{
+    margin-top: 20px;
+    display:flex;
+    gap: 10px;   
+    font-size: 1.5rem;
+    padding: 10px;    
+    justify-content: center;    
+    align-items: center;
+    font-weight: 700;
+}
+
+.decr{
+    color: rgb(177, 177, 177);
+    cursor: default;
+    pointer-events: none;
+}
+
+.decrActive{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.decrActive:hover{
+    color: rgb(252, 3, 252);
+}
+
+.page{
+    padding: 10px;
+    cursor: default;
+    
+}
+
+.incr{
+    color: rgb(177, 177, 177);
+    cursor: default;
+    pointer-events: none;
+    
+}
+
+.incrActive{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.incrActive:hover{
+    color: rgb(252, 3, 252);
+}

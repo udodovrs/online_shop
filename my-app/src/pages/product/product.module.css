@@ -1,0 +1,137 @@
+.wrapper{
+    width: 70vw;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.wrapperImg{
+    display: flex;
+    gap: 20px;
+}
+
+.wrapperContent{
+    display: flex;
+    gap: 20px;  
+    justify-content: space-between;
+}
+
+.wrapperMiniImg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainImg{
+    width: 600px;
+    border-radius: 10px;    
+}
+
+.miniImgActive{
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;   
+    border: 2px solid rgb(255, 0, 212); 
+}
+
+.miniImg{
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: contrast(30%);    
+}
+
+.discount{    
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.prise{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.discountLabel{ 
+    font-size: 1.5rem;  
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btnBuy{
+    background-color: green;
+    font-size: 1.2rem;
+    padding: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btnBuy:hover{
+    
+    background-color: rgb(19, 155, 19);  
+}
+
+.btnCart{
+    background-color: rgb(145, 145, 145);
+    font-size: 1rem;    
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.btnCart:disabled{
+    pointer-events:none;
+    opacity: 20%;
+}
+
+.btnCart:hover{
+    background-color: rgb(168, 162, 162);  
+}
+
+.cart{
+    font-size: 1.5rem;
+    
+}
+
+.description{
+    margin-left: 138px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.alarmCart{
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.wrapperTitleAndBtnBack{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapperAdminBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+

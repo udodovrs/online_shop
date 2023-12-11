@@ -1,0 +1,38 @@
+.wrapper{
+    flex-basis: 20%;    
+}
+
+.categoryItem{
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: border .3s;
+    border: 2px solid rgb(242, 229, 252);
+}
+
+.categoryItem:hover{    
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.categoryItemActive{
+    background-color: rgb(196, 192, 192);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: border .3s;
+    border: 2px solid rgb(242, 229, 252);
+}
+
+.categoryItemActive:hover{    
+    border: 2px solid rgb(15, 15, 15);
+}
+
+
+

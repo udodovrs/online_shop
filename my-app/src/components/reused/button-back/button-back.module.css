@@ -1,0 +1,10 @@
+.btnBack{    
+    font-size: 2rem;    
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 6px 11px 6px;   
+}

@@ -1,0 +1,30 @@
+.wrapper{
+    padding-top: 80px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.input{
+    width: 600px;
+    padding: 5px;
+    font-size: 1rem;    
+}
+
+.wrapperSearch{
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.wrapperMainArea{
+    display: flex;
+}
+.wrapperContent{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;  
+    min-height: 73vh;    
+}

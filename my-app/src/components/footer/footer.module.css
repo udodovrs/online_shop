@@ -1,0 +1,24 @@
+.wrapper{ 
+    width: 80vw;   
+    height: 100px;
+    background-color: rgb(79 79 79);
+    border-top: 4px solid #f500ee;
+    display: flex;
+    margin: 0 auto   
+}
+
+.content{
+    padding: 10px;
+    width: 70vw;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

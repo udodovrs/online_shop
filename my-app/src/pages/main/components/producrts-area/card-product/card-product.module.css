@@ -1,0 +1,70 @@
+.wrapper{
+    width: 200px;
+    height: 282px; 
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-start
+}
+
+.img{
+    height: 200px;
+}
+
+.wrapperImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.priseBlock{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.discount{    
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.prise{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.title{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.discountLabel{
+    position: absolute;
+    padding: 5px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.avalible{
+    margin-top: 3px;
+    margin-left: 5px;    
+    padding: 3px;
+    background-color: rgb(30, 255, 0);    
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.notavalible{
+    margin-top: 3px;
+    margin-left: 5px;    
+    padding: 3px;
+    background-color: rgb(152, 155, 151);    
+    font-weight: 500;
+    border-radius: 5px;
+}
